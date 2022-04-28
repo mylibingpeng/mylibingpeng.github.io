@@ -1,0 +1,769 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font:14px;
+    font-family: 宋体,Arial Narrow,arial,serif;
+}
+a{
+    color: #000000;
+}
+header{
+    width: 100%;
+    height: 66px;
+    overflow: hidden;
+}
+header .header-main{
+    width: 960px;
+    height:60px;
+    margin:0 auto;
+}
+header .header-main .head-left{
+    width: 182px;
+    height: 42px;
+    position: absolute;
+    float: left;
+    font-size: 37px;
+    font-weight: 500;
+}
+header .header-main .head-left a{
+    display: block;
+    line-height: 42px;
+    margin-top: 10px;
+    color: #fc87bc;
+    text-decoration: none;
+}
+
+
+header .header-main .head-right{
+    width: 268px;
+    height: 36px;
+    margin-top: 25px;
+    float: right;
+}
+
+.head-right .head-right-one{
+    width: 74px;
+    height: 18px;
+    float: left;
+}
+
+.head-right .head-right-tow{
+    width: 90px;
+    height: 18px;
+    float: left;
+}
+
+.head-right .head-right-three{
+    width: 100px;
+    height: 36px;
+    float: left;
+}
+
+.head-right-img{
+    width: 18px;
+    height: 18px;
+    float: left;
+}
+
+.head-right-text{
+    float: left;
+    margin-left: 2px;
+}
+
+.head-right-text a{
+    text-decoration: none;
+}
+
+/* nav导航栏部分开始 */
+.nav-Af{
+    width: 100%;
+    height: 100%;
+}
+.nav-Af  .nav-main a:hover{
+    color: #f00;
+}
+.nav-Af .nav-main{
+    width: 960px;
+    height: 30px;
+    margin: 10px auto;
+    border-bottom: 2px solid #dddddd;
+}
+.nav-left{
+    width: 425px;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav-left a{
+    padding-left: 5px;
+    text-decoration: none;
+    color: #000000;
+} 
+.nav-left>a:nth-child(2){
+    text-decoration: none;
+    color: #000000;
+    margin-left: 35px;
+} 
+
+.nav-left>a:first-of-type{
+    width: 32px;
+    height: 30px; 
+    display: block;   
+    overflow: hidden;
+    border-bottom: 2px solid #f90b70;
+    position: absolute;
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-right{
+    width: 510px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    float: right;
+    font-weight: 400;
+    font-size: 14px;
+}
+.nav-right a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-right>a:last-child{
+    text-decoration: none;
+    color: #000000;
+    margin-left: 15px;
+} 
+
+/* nav导航栏部分开始 */
+
+
+/* 轮播图部分开始 */
+.Rotation-chart{
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.Rotation-chart-main{
+    width: 970px;
+    height: 240px;
+    margin: 0 auto;
+    background-color: #fff0f5;
+    overflow: hidden;
+}
+.Rotation-chart-img{
+    width: 930px;
+    height: 210px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.Rotation-chart-imgOne{
+    width: 300px;
+    height: 210px;
+    background: url(../images/a2.jpg);
+    float: left;
+
+}
+.Rotation-chart-imgTwo{
+    width: 300px;
+    height: 210px;
+    background: url(../images/a3.jpg);
+    float: left;
+    margin-left: 15px;
+}
+.Rotation-chart-imgThree{
+    width: 300px;
+    height: 210px;
+    background: url(../images/a1.jpg);
+    float: left;
+    margin-left: 15px;
+}
+/* logo部分结束 */
+
+
+
+/* <!-- main下面的导航开始 --!> */
+.nav-Bf{
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.nav-Bf .nav-main{
+    width: 960px;
+    height: 82px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-bottom: 2px solid #dddddd;
+}
+.nav-one{
+    width: 180px;
+    height: 72px;
+    float: left;
+    font-size: 12px;
+}
+
+.nav-one ul{
+   list-style: none;
+   padding-top: 10px;
+}
+.nav-one ul li{
+    width: 40px;
+    height: 24px;
+    float: left;
+}
+.nav-one ul li a{
+    text-decoration: none;
+    color: #666666;
+}
+
+.nav-two ul li{
+     width: 48px;
+     height: 24px;
+     float: left;
+}
+.nav-two ul li a{
+     text-decoration: none;
+     color: #666666;
+}
+.nav-one-top{
+    background: #909090;
+    width: 92px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+}
+.nav-two-top{
+    background: #909090;
+    width: 59px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+}
+.nav-three-top{
+    background: #909090;
+    width: 59px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+}
+.nav-two{
+    width: 650px;
+    height: 72px;
+    float: left;
+    font-size: 12px;
+}
+.nav-two ul{
+    list-style: none;
+    padding-top: 10px;
+ }
+ .nav-two ul li{
+     width: 48px;
+     height: 24px;
+     float: left;
+ }
+ .nav-two ul li a{
+     text-decoration: none;
+     color: #666666;
+ }
+.nav-three{
+    width: 120px;
+    height: 72px;
+    margin-left: 10px;
+    float: left;
+    font-size: 12px;
+}
+
+.nav-three ul{
+    list-style: none;
+    padding-top: 10px;
+ }
+ .nav-three ul li{
+     width: 40px;
+     height: 24px;
+     float: left;
+ }
+ .nav-three ul li a{
+     text-decoration: none;
+     color: #666666;
+ }
+/* <!-- main下面的导航结束 --!> */
+
+
+
+/* 主体部分开始 */
+main{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+main .main-container{
+    width: 960px;
+    height: 2580px;
+    margin: 0 auto;
+    /* background: #ccc; */
+    overflow: hidden;
+}
+.zt-l{
+    float: left;
+    width: 608px;
+    height: 2580px;
+    overflow: hidden;
+}
+.zt-l .zi-one{
+    width: 608px;
+    height: 28px;
+    overflow: hidden;
+}
+.zt-l .zi-one .one1 h2{
+    float: left;
+    font-size: 16px;
+    width: 72px;
+    height: 28px;
+    line-height: 28px;
+    color: #fca0c7;
+}
+.zt-l .zi-one .one2{
+    float: right;
+}
+
+.zi-one .one2 a{
+    text-decoration: none;
+    color: #000000;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.zt .ztbf .zt-l .zt-one{
+    width: 608px;
+    height: 480px;
+    /* background-color: rgb(72, 206, 19); */
+}
+
+
+.a1-1{
+    width: 136px;
+    height: 216px;
+    float: left;
+    margin-left: 20px;
+}
+.a1-1 img{
+    width: 136px;
+    height: 180px;
+}
+.a1-1 a{
+    font-size: 13px;
+    text-decoration: none;
+}
+.a1-1 p{
+    font-size: 12px;
+    width: 136px;
+    height: 18px;
+    display: block; 
+    margin-top: 4px;
+}
+.a1-1 .p1{
+    font-size: 12px;
+    width: 136px;
+    height: 18px;
+    display: block; 
+    color: #666666;
+    margin-top: 4px;
+}
+
+
+
+
+
+.a1-2{
+    width: 136px;
+    height: 216px;
+    float: left;
+}
+.a1-2 img{
+    width: 136px;
+    height: 180px;
+}
+.a1-2 a{
+    font-size: 13px;
+    text-decoration: none;
+}
+.a1-2 p{
+    font-size: 12px;
+    width: 136px;
+    height: 18px;
+    display: block; 
+    margin-top: 4px;
+}
+.a1-2 .p1{
+    font-size: 12px;
+    width: 136px;
+    height: 18px;
+    display: block; 
+    color: #666666;
+}
+
+.a1-3{
+    width: 136px;
+    height: 216px;
+    float: left;
+    margin-top: 35px;
+}
+
+.a1-3 img{
+    width: 136px;
+    height: 180px;
+}
+.a1-3 a{
+    font-size: 13px;
+    text-decoration: none;
+}
+.a1-3 p{
+    font-size: 12px;
+    width: 136px;
+    height: 18px;
+    display: block; 
+    margin-top: 4px;
+}
+.a1-3 .p1{
+    font-size: 12px;
+    width: 136px;
+    height: 18px;
+    display: block; 
+    color: #666666;
+}
+
+.a1-4{
+    width: 136px;
+    height: 216px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.a1-4 img{
+    width: 136px;
+    height: 180px;
+}
+.a1-4 a{
+    font-size: 13px;
+    text-decoration: none;
+}
+.a1-4 p{
+    font-size: 12px;
+    width: 136px;
+    height: 18px;
+    display: block; 
+    margin-top: 4px;
+}
+.a1-4 .p1{
+    font-size: 12px;
+    width: 136px;
+    height: 18px;
+    display: block; 
+    color: #666666;
+}
+.han{
+    width: 608px;
+    height: 15px;
+}
+
+
+/* 主体部分右边开始 */
+.zt-right{
+    float: right;
+    width: 336px;
+    height: 1710px;
+    background-color: #fff0f5;
+}
+
+.zt-right .zt-r-top-center{
+    width: 336px;
+    height:15px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.zt-right-top1{
+    width: 336px;
+    height: 302px;
+    background-color: #fff0f5;
+    overflow: hidden;
+}
+.zt-font{
+    width: 316px;
+    height:28px;
+    margin-left: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.zt-font>{
+    display: block;
+}
+.zt-font>.lbp1{
+    width: 108px;
+    height: 28px;
+    font-size: 11px;
+    float: left;
+    margin-top: 5px;
+    color: #fc8bbb;
+}
+.zt-font>.lbp11{
+    width: 120px;
+    height: 28px;
+    font-size: 11px;
+    float: left;
+    margin-top: 5px;
+    color: #fc8bbb;
+}
+.zt-font>.lbp2{
+    width: 28px;
+    height: 15px;
+    font-size: 14px;
+    float: right;
+    margin-top: 5px;
+}
+.lbp2>a{
+    text-decoration: none;
+}
+.zt-nav{
+    width: 316px;
+    height:29px;
+    margin-left: 10px;
+    overflow: hidden;
+    line-height: 29px;
+    text-align: center;
+    font-size: 14px;
+}
+.zt-nav>.zt-n{
+    width: 45px;
+    height: 29px;
+    background-color: #feddeb;
+    float: left;
+    font-weight: 400;
+}
+.zt-nav>.zt-n1{
+    width: 45.2px;
+    height: 29px;
+    background-color: #ffffff;
+    float: left;
+    font-weight: 400;
+}
+.zt-r-mian{
+    width: 316px;
+    height: 225px;
+    margin-left: 10px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.zt-r-mian>ul{
+    width: 316px;
+    height: 225px;
+    margin-top: 10px;
+}
+
+.zt-right .zt-r-mian ul li{
+    width: 316px;
+    height: 30px;
+    line-height: 30px;
+}
+.zt-right .zt-r-mian ul li a{
+    display: block;
+    float: right;
+    text-decoration: none;
+}
+.zt-right-top2{
+    overflow: hidden;
+}
+.zt-right-top2-top{
+    width: 316px;
+    height: 28px;
+
+    margin-top: 10px;
+    margin-left:10px;
+}
+.zt-right-top2-main{
+    width: 316px;
+    height: 1320px;
+    background-color: #909090;
+    margin-left:10px;
+    display: flex;
+}
+.zt-right-top2-main ul{
+    width: 316px;
+    height: 1320px;
+    background-color: #fff0f5;
+    overflow: hidden;
+}
+.zt-right-top2-main ul li{  
+    width: 316px;
+    height:118px;
+    background-color: #fff0f5;
+    margin-top: 12.7px;
+    overflow: hidden;
+}
+.zt-right-top2-main ul li em{
+    width: 40px;
+    height: 21px;
+    display: block;
+    position: relative;
+    float: left;
+}
+.zt-right-top2-main ul li .img-r{
+    width: 77px;
+    height: 102px;
+    position: relative;
+    float: left;
+}
+.zt-right-top2-main ul li img{
+    width: 77px;
+    height: 102px;
+    position: relative;
+    float: left;
+}
+.zt-right-top2-main ul li .n2{
+    font-size: 10px;
+    margin-left: 15px;
+    float: left;
+    width: 184px;
+    height: 24px;
+}
+.zt-right-top2-main ul li .n12>p{
+    width: 176px;
+    height: 20px;
+    margin-left: 15px;
+    float: left;
+    font: 8px;
+}
+.zt-right-top2-main ul li .span2{
+    width: 176px;
+    height: 20px;
+    margin-left: 15px;
+    float: left;
+    font-size: 11px;
+}
+.zt-right-top2-main ul li .span2{
+    width: 176px;
+    height: 20px;
+    margin-left: 15px;
+    float: left;
+    font-size: 11px;
+    margin-top: 2px;
+}
+.zt-right-top2-main ul li .p2{
+    width: 176px;
+    height: 20px;
+    margin-left: 15px;
+    float: left;
+    font-size: 13px;
+    margin-top: -2px;
+    color: #999999;
+}
+.foot{
+    width: 960px;
+    height: 15px;
+    margin: 0 auto;
+}
+.foot1{
+    width: 960px;
+    height: 4px;
+    margin: 0 auto;
+}
+
+/* 主体部分结束 */
+
+
+
+/* 脚部开始 */
+footer{
+    width: 960px;
+    height: 220px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.f-top1{
+    width: 960px;
+    height: 28px;
+    color: #fc8bbb;
+    font-size: 20px;
+    font-weight: 700;
+}
+.f-top1>a{
+    width: 72px;
+    height: 28px;
+    text-decoration: none;
+    color: #fc8bbb;
+}
+.f-top2{
+    width: 960px;
+    height: 27px;
+    font-size: 12px;
+    line-height: 27px;
+    /* margin-top: 2px; */
+}
+.f-top3{
+    width: 960px;
+    height: 15px;
+    /* background-color: #613145; */
+}
+.f-top4{
+    width: 960px;
+    height: 137px;
+    border-top: 2px solid #fc8bbb;
+    overflow: hidden;
+}
+.f-top10{
+    width: 960px;
+    height: 15px;
+}
+.f-top5{
+    width: 960px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+.f-top6{
+    width: 960px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+}
+.f-top7{
+    width: 960px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+}
+.f-top8{
+    width: 960px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+}
+.f-top9{
+    width: 960px;
+    height: 22px;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+}
+/* <!-- 脚部结束 --> */
